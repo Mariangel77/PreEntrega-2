@@ -38,10 +38,10 @@ ul{
     "columna1 columna2 columna3 columna4";
 
     gap: 100px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 30%;
     border-top: 0.5px solid gray;
  }
@@ -98,4 +98,12 @@ ul{
     .columna4{
         grid-area: columna4;
     }
+}
+
+.disfrutalos{
+    font-size: large;
+}
+
+.conoce{
+   font-size: 30px;
 }
