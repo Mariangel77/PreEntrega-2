@@ -1,0 +1,76 @@
+body{
+    margin: 0% 8% 8% 8%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30%;
+    border-top: 0.5px solid gray;
+}
+
+.img-unete{
+    margin-top: 3%;
+}
+
+.lista{
+    margin-top: 15%;
+    font-size: small;
+
+}
+
+footer{
+    display: inline;
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.bebidas-grilla{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "bebida1 bebida2 bebida3"
+    "bebida4 bebida5 bebida6"
+    "bebida7"              ;
+}
+
+.bebida1{
+    grid-area: bebida1;
+}
+
+.bebida2{
+    grid-area: bebida2;
+}
+
+.bebida3{
+    grid-area: bebida3;
+}
+
+.bebida4{
+    grid-area: bebida4;
+}
+
+.bebida5{
+    grid-area: bebida5;
+}
+
+.bebida6{
+    grid-area: bebida6;
+}
+
+.bebida7{
+    grid-area: bebida7;
+}
