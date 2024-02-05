@@ -217,3 +217,58 @@ p ::first-letter{
     
     }
 }
+
+.experiencia{
+    font-size: 350%;
+    font-weight: bolder;
+    color: white;
+    background-color: #1c3b33;
+    text-align: center;
+    padding: 40px;
+}
+
+.parrafo-experiencia{
+    margin: 3% 30% 5% 30%;
+}
+
+.img-experiencia{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.drive{
+    margin-top: 3%;
+}
+
+.delivery{
+    margin-top: 3%;
+}
+
+@media (min-width:200px) and (max-width:800px){
+    .experiencia{
+        font-size: 189%;
+        font-weight: bolder;
+        color: white;
+        background-color: #1c3b33;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .parrafo-experiencia{
+        margin: 10% 10% 20% 10%;
+        text-align: center;
+    }
+    
+    .img-experiencia{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .drive{
+        margin-top: 3%;
+    }
+    
+    .delivery{
+        margin-top: 3%;
+    }
+}
