@@ -85,18 +85,52 @@ ul{
     
     .columna1{
         grid-area: columna1;
+        border-top: 1px solid black;
     }
     
     .columna2{
         grid-area: columna2;
+        border-top: 1px solid black;
     }
     
     .columna3{
         grid-area: columna3;
+        border-top: 1px solid black;
     }
     
     .columna4{
         grid-area: columna4;
+        border-top: 1px solid black;
+    }
+
+    footer{
+        display: inline;
+        text-align: center;
+        color: gray;
+        font-size: 50%;
+    }
+
+    .nuestro-cafe{
+        font-size: 200%;
+        font-weight: bolder;
+        color: white;
+        background-color: #1c3b33;
+        text-align: left;
+        padding: 30px;
+    }
+    
+    .body-cafe{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .primer-parrafo-cafe{
+        margin-top: 5%;
+    }
+    
+    p ::first-letter{
+        text-transform: uppercase;
+    
     }
 }
 
@@ -137,11 +171,49 @@ ul{
 }
 
 .nuestro-cafe{
-    font-size: 300%;
+    font-size: 350%;
     font-weight: bolder;
     color: white;
-    background-color: #184a17;
+    background-color: #1c3b33;
     text-align: center;
-    margin: 0%;
     padding: 70px;
+}
+
+.body-cafe{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.primer-parrafo-cafe{
+    margin-top: 5%;
+}
+
+p ::first-letter{
+    text-transform: uppercase;
+
+}
+
+@media (min-width:200px) and (max-width:800px){
+    .nuestro-cafe{
+        font-size: 200%;
+        font-weight: bolder;
+        color: white;
+        background-color: #1c3b33;
+        text-align: left;
+        padding: 30px;
+    }
+    
+    .body-cafe{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .primer-parrafo-cafe{
+        margin-top: 5%;
+    }
+    
+    p ::first-letter{
+        text-transform: uppercase;
+    
+    }
 }
