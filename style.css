@@ -107,3 +107,27 @@ ul{
 .conoce{
    font-size: 30px;
 }
+
+.bebida{
+    font-size: 100%;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.comida{
+    font-size: 100%;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.en-casa{
+    font-size: 100%;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+}
