@@ -2,13 +2,14 @@ nav{
     margin: 0% 8% 0% 8%;
 }
 
-.img-unete{
-    margin-top: 3%;
+.lista{
+    color: gray;
+    margin-top: 15%;
 }
 
-.lista{
-    margin-top: 15%;
-    font-size: small;
+.lista:hover{
+    color: #1c3b33;
+    text-decoration: underline;
 
 }
 
@@ -27,6 +28,10 @@ a{
 
 ul{
     list-style: none;
+}
+
+p{
+    font-weight: bolder;
 }
 
 .grid-container{
@@ -179,7 +184,7 @@ ul{
     padding: 70px;
 }
 
-.body-cafe{
+.body{
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -203,7 +208,7 @@ p ::first-letter{
         padding: 30px;
     }
     
-    .body-cafe{
+    .body{
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -351,6 +356,41 @@ p ::first-letter{
     
     .parrafo-delivery{
         font-size: 100%;
+    }
+
+}
+
+.nuestra-historia{
+    font-size: 350%;
+    font-weight: bolder;
+    color: white;
+    background-color: #1c3b33;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 5%;
+}
+
+p::first-letter, .parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5, .parrafo6, .parrafo7{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 7%;
+}
+
+@media (min-width:200px) and (max-width:800px){
+    .nuestra-historia{
+        font-size: 189%;
+        font-weight: bolder;
+        color: white;
+        background-color: #1c3b33;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    p::first-letter, .parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5, .parrafo6, .parrafo7{
+        font-size: small;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 7%;
     }
 
 }
